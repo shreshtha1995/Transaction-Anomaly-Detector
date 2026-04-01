@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Anomaly Detector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="heading1">Anomaly Detection Dashboard</h1>
+        <div class="top_bar">
+            <div class="card">Total Transactions:   
+            </div>
+            <div class="card">Flagged:
+                
+            </div>
+            <div class="card">F1 score:
+                
+            </div>
+            <div class="card">Detection rate:
+                
+            </div>
+            
+        </div>
+        
+    </header>
+    <main class="main_content">
+        <div>
+            <h2>Transactions Table</h2>
+            <table id="transaction">
+                <thead>
+                    <tr>
+                        <th>Amount</th>
+                        <th>Merchant</th>
+                        <th>Time</th>
+                        <th>Score</th>
+                        <th>Status</th>
+      
+                    </tr>
+                </thead>
+                <tbody id="transact_rows">
+
+                </tbody>
+
+            </table>
+
+        </div>
+        <div>
+            <h2>Alerts</h2>
+            <table id="alert">
+
+            </table>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
